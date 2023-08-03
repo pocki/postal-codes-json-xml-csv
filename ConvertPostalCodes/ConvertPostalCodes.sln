@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33927.210
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertPostalCodes", "ConvertPostalCodes.csproj", "{B6353232-4C97-439F-8F04-D0474CE342FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6353232-4C97-439F-8F04-D0474CE342FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6353232-4C97-439F-8F04-D0474CE342FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6353232-4C97-439F-8F04-D0474CE342FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6353232-4C97-439F-8F04-D0474CE342FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8EDFC2B-13CE-4D90-82A4-9D0E4260DDD2}
+	EndGlobalSection
+EndGlobal

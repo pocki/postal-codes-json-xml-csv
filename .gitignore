@@ -2,3 +2,6 @@ allCountries.txt
 data/**/*.csv
 data/**/*.json
 data/**/*.xml
+.vs
+bin
+obj
