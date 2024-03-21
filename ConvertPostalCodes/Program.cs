@@ -35,16 +35,20 @@ foreach (var line in data)
 }
 
 var countries = dataset.Select(d => d["country_code"]).Distinct();
+var serializerOptions = new System.Text.Json.JsonSerializerOptions
+{
+    WriteIndented = true
+};
 
 foreach (var country in countries)
 {
     // make sure directory exists
-    Directory.CreateDirectory("data");
+    Directory.CreateDirectory("../data");
 
     // filter to country
     var subset = dataset.Where(d => d["country_code"] == country).ToList();
 
-    var zipname = $"data/{country}.zip";
+    var zipname = $"../data/{country}.zip";
     if (File.Exists(zipname))
     {
         File.Delete(zipname);
@@ -53,7 +57,7 @@ foreach (var country in countries)
     using (var zipfile = ZipFile.Open(zipname, ZipArchiveMode.Create))
     {
         // json
-        var json = System.Text.Json.JsonSerializer.Serialize(subset, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+        var json = System.Text.Json.JsonSerializer.Serialize(subset, serializerOptions);
         var entry = zipfile.CreateEntry($"zipcodes.{country.ToLower()}.json", CompressionLevel.SmallestSize);
         using (var stream = entry.Open())
         using (var writer = new StreamWriter(stream))
