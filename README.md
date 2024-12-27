@@ -22,7 +22,7 @@ Postal codes/ zipcodes from geonames.org converted to JSON, XML and JSON.
 - BY (3133)
 - CA (1655)
 - CC (1)
-- CH (4521)
+- CH (4520)
 - CL (346)
 - CN (2352)
 - CO (3681)
@@ -30,7 +30,7 @@ Postal codes/ zipcodes from geonames.org converted to JSON, XML and JSON.
 - CX (1)
 - CY (1127)
 - CZ (15507)
-- DE (16477)
+- DE (23296)
 - DK (1159)
 - DO (544)
 - DZ (15951)
@@ -106,7 +106,7 @@ Postal codes/ zipcodes from geonames.org converted to JSON, XML and JSON.
 - RO (37915)
 - RS (1155)
 - RU (43538)
-- SE (18815)
+- SE (18831)
 - SG (121154)
 - SI (556)
 - SJ (8)
@@ -116,7 +116,7 @@ Postal codes/ zipcodes from geonames.org converted to JSON, XML and JSON.
 - TH (903)
 - TR (36307)
 - UA (29571)
-- US (41483)
+- US (41485)
 - UY (1964)
 - VA (1)
 - VI (16)
@@ -124,7 +124,7 @@ Postal codes/ zipcodes from geonames.org converted to JSON, XML and JSON.
 - WS (1)
 - YT (21)
 - ZA (3920)
-
+ 
 ## Format
 
 Ready to go files in JSON, XML and CSV format.
