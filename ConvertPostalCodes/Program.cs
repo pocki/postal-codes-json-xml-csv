@@ -1,4 +1,5 @@
-﻿using System.IO.Compression;
+﻿using System.Globalization;
+using System.IO.Compression;
 using System.Xml.Linq;
 
 var file_name = "allCountries.txt";
@@ -103,5 +104,5 @@ foreach (var country in countries)
         }
     }
 
-    Console.WriteLine($"- {country} ({subset.Count})");
+    Console.WriteLine($"- {country} ({subset.Count}) - {new RegionInfo($"{country}").EnglishName}");
 }
