@@ -3,7 +3,7 @@
 **Postal codes / zipcodes with geo data from geonames.org converted to JSON, XML and CSV.**
 
 ## Countries (number of postal codes)
-Last updated: 2024-12-27
+Last updated: 2025-05-18
 
 - AD (7) - Andorra
 - AE (178171) - United Arab Emirates
@@ -12,7 +12,7 @@ Last updated: 2024-12-27
 - AR (20260) - Argentina
 - AS (1) - American Samoa
 - AT (18957) - Austria
-- AU (16873) - Australia
+- AU (18521) - Australia
 - AX (37) - Åland Islands
 - AZ (1186) - Azerbaijan
 - BD (1349) - Bangladesh
@@ -21,7 +21,7 @@ Last updated: 2024-12-27
 - BM (112) - Bermuda
 - BR (5525) - Brazil
 - BY (3133) - Belarus
-- CA (1655) - Canada
+- CA (1657) - Canada
 - CC (1) - Cocos (Keeling) Islands
 - CH (4520) - Switzerland
 - CL (346) - Chile
@@ -31,7 +31,7 @@ Last updated: 2024-12-27
 - CX (1) - Christmas Island
 - CY (1127) - Cyprus
 - CZ (15507) - Czechia
-- DE (23296) - Germany
+- DE (23297) - Germany
 - DK (1159) - Denmark
 - DO (544) - Dominican Republic
 - DZ (15951) - Algeria
@@ -42,7 +42,7 @@ Last updated: 2024-12-27
 - FK (1) - Falkland Islands
 - FM (4) - Micronesia
 - FO (130) - Faroe Islands
-- FR (51677) - France
+- FR (51611) - France
 - GB (27450) - United Kingdom
 - GF (77) - French Guiana
 - GG (14) - Guernsey
@@ -58,11 +58,12 @@ Last updated: 2024-12-27
 - HR (6774) - Croatia
 - HT (236) - Haiti
 - HU (3571) - Hungary
+- ID (81058) - Indonesia
 - IE (139) - Ireland
 - IM (87) - Isle of Man
 - IN (155570) - India
 - IO (1) - British Indian Ocean Territory
-- IS (147) - Iceland
+- IS (195) - Iceland
 - IT (18415) - Italy
 - JE (5) - Jersey
 - JP (146883) - Japan
@@ -107,7 +108,7 @@ Last updated: 2024-12-27
 - RO (37915) - Romania
 - RS (1155) - Serbia
 - RU (43538) - Russia
-- SE (18831) - Sweden
+- SE (18846) - Sweden
 - SG (121154) - Singapore
 - SI (556) - Slovenia
 - SJ (8) - Svalbard & Jan Mayen
@@ -117,7 +118,7 @@ Last updated: 2024-12-27
 - TH (903) - Thailand
 - TR (36307) - Türkiye
 - UA (29571) - Ukraine
-- US (41485) - United States
+- US (41489) - United States
 - UY (1964) - Uruguay
 - VA (1) - Vatican City
 - VI (16) - U.S. Virgin Islands
